@@ -9,8 +9,8 @@ int main()
 	
 	for(i=1;i<=sayi;i++)    
 	{
-		if(i%2==0)
-		{
+	      if(i%2==0)//Sayinin 2 ile bolumunden kalanin 0 oldugunu gosterir.
+         	{
 			sayac++;
 			toplam+=i;
 		}
