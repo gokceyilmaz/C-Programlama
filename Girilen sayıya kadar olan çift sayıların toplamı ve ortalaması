@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i,sayi,toplam=0,sayac=0;
+    float ortalama;
+	printf("Sayi Giriniz:");
+	scanf("%d",&sayi);
+	
+	for(i=1;i<=sayi;i++)    
+	{
+		if(i%2==0)
+		{
+			sayac++;
+			toplam+=i;
+		}
+		
+	}
+	
+	ortalama=toplam/sayac;
+	printf("Ortalama:%.2f\n",ortalama);
+	printf("Toplam:%d",toplam);
+	getch();
+	
+	
+}
