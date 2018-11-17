@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<string.h>
+  main()
+ {
+ 	char cumle[100];
+ 	int i;
+ 	gets(cumle);
+ 	for(i=0;i<strlen(cumle);i++)
+ 	if  (cumle[i]!=' ')
+ 	{
+	 printf("%c",cumle[i]);
+}
+ 	 else 
+ 	 printf("\n");
+ 	 getchar();
+ 	 
+ 	
+ 	
+ 	
+ 	
+ }
