@@ -1,0 +1,20 @@
+// Girilen sayi 0-100 arasinda veya cift ise uygundur; sayi uygun degilse uygun degildiri ekrana yazdiran program 
+#include<stdio.h>
+#include<conio.h>
+
+int main ()
+{int sayi;
+
+printf("Sayi Giriniz:");
+scanf("%d",&sayi);
+
+if (sayi>0 && sayi<100 && sayi%2==0)
+     printf("Sayiniz uygundur.");
+     
+else 
+    printf("Sayiniz uygun degildir.");     
+   	
+	
+	
+	
+}
